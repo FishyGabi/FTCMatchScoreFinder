@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>Match Score Finder</h1>
+      <div class="searchInputs">
+        <input type="number" placeholder="Team Number" id="input-TeamNumber" />
+        <input type="number" placeholder="Year" id="input-Year" />
+        <input type="text" placeholder="Event Code" id="input-EventCode" />
+        <button onclick="getOPR()" id="search-btn" class="search-btn">
+          Search
+        </button>
+      </div>
+    </div>
+    <div id="matchesContainer"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
